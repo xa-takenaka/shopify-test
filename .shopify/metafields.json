@@ -1,0 +1,255 @@
+{
+  "article": [],
+  "blog": [],
+  "collection": [],
+  "company": [],
+  "company_location": [],
+  "location": [],
+  "market": [],
+  "order": [],
+  "page": [],
+  "product": [
+    {
+      "key": "_taobao_url",
+      "namespace": "my_fields",
+      "name": "仕入れ先URL",
+      "description": "仕入れ先URLを入力",
+      "type": {
+        "name": "url",
+        "category": "URL"
+      }
+    },
+    {
+      "key": "rating",
+      "namespace": "reviews",
+      "name": "商品評価",
+      "description": "お客様からの平均評価",
+      "type": {
+        "name": "rating",
+        "category": "RATING"
+      }
+    },
+    {
+      "key": "rating_count",
+      "namespace": "reviews",
+      "name": "商品評価数",
+      "description": "お客様からの評価総数",
+      "type": {
+        "name": "number_integer",
+        "category": "NUMBER"
+      }
+    },
+    {
+      "key": "_pattern_type",
+      "namespace": "my_fields",
+      "name": "柄-タイプ",
+      "description": "",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "queries",
+      "namespace": "shopify--discovery--product_search_boost",
+      "name": "販売促進する商品を検索する",
+      "description": "商品が検索結果で上位に表示される検索クエリのリスト",
+      "type": {
+        "name": "list.single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "related_products",
+      "namespace": "shopify--discovery--product_recommendation",
+      "name": "関連商品",
+      "description": "関連商品のリスト",
+      "type": {
+        "name": "list.product_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "related_products_display",
+      "namespace": "shopify--discovery--product_recommendation",
+      "name": "関連商品の設定",
+      "description": "関連商品がアルゴリズムによるおすすめ商品とともにどのように表示されるかを決定します",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
+    },
+    {
+      "key": "complementary_products",
+      "namespace": "shopify--discovery--product_recommendation",
+      "name": "付属商品",
+      "description": "付属商品のリスト",
+      "type": {
+        "name": "list.product_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "color-pattern",
+      "namespace": "shopify",
+      "name": "色",
+      "description": "青やストライプなど、主な色やパターンを定義",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "size",
+      "namespace": "shopify",
+      "name": "サイズ",
+      "description": "製品のサイズを指定するために使用されます (0 ～ 3か月または特大 (XL) など)。",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "sleeve-length-type",
+      "namespace": "shopify",
+      "name": "袖丈タイプ",
+      "description": "半袖やノースリーブなど、衣料品アイテムの袖のスタイルを指定",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "age-group",
+      "namespace": "shopify",
+      "name": "年齢層",
+      "description": "大人やキッズなど、商品の年齢対象範囲を定義",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "target-gender",
+      "namespace": "shopify",
+      "name": "対象性別",
+      "description": "女性、男性、ユニセックスなど、商品の対象となる性別を識別",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "skirt-dress-length-type",
+      "namespace": "shopify",
+      "name": "スカート・ドレスの長さの種類",
+      "description": "スカートやドレスの長さを定義(ミニやマキシなど)",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "fabric",
+      "namespace": "shopify",
+      "name": "布・生地",
+      "description": "製品に使用されるファブリックの種類 (綿やデニムなど) を識別します。",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "pants-length-type",
+      "namespace": "shopify",
+      "name": "パンツの長さの種類",
+      "description": "クロップド丈やロング丈など、パンツの長さを定義するのに使用",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "dress-style",
+      "namespace": "shopify",
+      "name": "ドレススタイル",
+      "description": "ドレスのデザインを識別 (例：ラップ、エンパイアウエスト)",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "skirt-style",
+      "namespace": "shopify",
+      "name": "スカートスタイル",
+      "description": "スカートのデザインやカットを説明 (例：ペンシルスカート、プリーツスカート)",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "fit",
+      "namespace": "shopify",
+      "name": "フィット",
+      "description": "衣服のフィット感、典型的にはパンツの形状を表す。例：スキニーレッグ、ワイド",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "waist-rise",
+      "namespace": "shopify",
+      "name": "ウエストの上がり",
+      "description": "衣服がウエストのどの位置にあるのかを示す。低、中、高など",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "neckline",
+      "namespace": "shopify",
+      "name": "ネックライン",
+      "description": "Vネックやボートネックなど、衣服の首の形を表すために使用",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "top-length-type",
+      "namespace": "shopify",
+      "name": "トップスの長さの種類",
+      "description": "トップスやシャツの長さを定義(クロップトップスやロング丈など)",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "dress-occasion",
+      "namespace": "shopify",
+      "name": "服装の機会",
+      "description": "ドレスを着る目的や機会を指定 (例： 休日、普段着)",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "clothing-features",
+      "namespace": "shopify",
+      "name": "衣類の特徴",
+      "description": "耐水性やしわ耐性など、アパレル固有の特性を説明している",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    }
+  ],
+  "variant": [],
+  "shop": []
+}
